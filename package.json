@@ -1,0 +1,23 @@
+{
+	"name": "sample_pwa",
+	"description": "Sample PWA Application",
+	"version": "1.0.2",
+	"author": "https://github.com/krishnawpdev/",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"core-util-is": "^1.0.2",
+		"express": "^4.16.4",
+		"node-gcm": "^1.0.2"
+	},
+	"scripts": {
+		"start": "http-server -a localhost -p 3000 -c-1"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.4.3",
+		"postcss-cli": "^6.1.0"
+	},
+	"engines": {
+		"node": ">=8.11.2"
+	},
+	"license": "MIT"
+}
